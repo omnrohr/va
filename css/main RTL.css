@@ -6958,6 +6958,17 @@ color: #f05b2b;
     color-scheme: light dark; /* Switches to light theme if explicitly preferred */
   }
 }
+.fixed-icon {
+  position: fixed;
+  bottom: 1vh; /* Adjusts the distance from the bottom of the viewport */
+  left: 3vw;  /* Adjusts the distance from the right side of the viewport */
+  z-index: 1000; /* Ensures the icon appears above other elements */
+}
 
+.fixed-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 
