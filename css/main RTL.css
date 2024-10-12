@@ -207,13 +207,9 @@
 
 .about-image-1 {
   background-image: url("../img/backgrounds/our-vision-s.webp");
+  background-size: contain !important;
 }
 
-@media only screen and ( max-width:768 ) {
-  .about-image-1 {
-    background-image: url("../img/backgrounds/vision_mission.webp");
-  }
-}
 
 .marquee-image-single-1 {
   background-image: url("https://dummyimage.com/1000x1300/4d4d4d/636363");
@@ -7001,3 +6997,9 @@ min-height: 50px;
   }
 }
 
+@media only screen and ( min-width:992px ) {
+  .about-image-1 {
+    background-image: url("../img/backgrounds/vision_mission.webp");
+    background-size: contain !important;
+  }
+}
