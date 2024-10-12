@@ -206,7 +206,7 @@
 }
 
 .about-image-1 {
-  background-image: url("https://dummyimage.com/1400x1000/4d4d4d/636363");
+  background-image: url("../img/backgrounds/vision_mission.webp");
 }
 
 .marquee-image-single-1 {
@@ -234,19 +234,19 @@
 }
 
 .portfolio-item-1 {
-  background-image: url("../img/backgrounds/wide_images_mugs_R.webp");
+  background-image: url("../img/backgrounds/Portfolio_1.webp");
 }
 
 .portfolio-item-2 {
-  background-image: url("../img/backgrounds/wide_images_R.webp");
+  background-image: url("../img/backgrounds/Portfolio_2.webp");
 }
 
 .portfolio-item-3 {
-  background-image: url("https://dummyimage.com/1920x1080/686868/737373");
+  background-image: url("../img/backgrounds/Portfolio_3.webp");
 }
 
 .portfolio-item-4 {
-  background-image: url("https://dummyimage.com/1920x1080/414141/636363");
+  background-image: url("../img/backgrounds/Portfolio_4.webp");
 }
 
 .portfolio-item-5 {
@@ -6959,7 +6959,10 @@ color: #f05b2b;
   }
 }
 .fixed-icon {
+  width: 60px;
+  height: 60px;
   margin: 5px !important;
+  padding: auto;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -6974,10 +6977,20 @@ color: #f05b2b;
        border-radius: var(--_radius-s);
   z-index: 100;
 }
+.whats__svg{
+  height: 56px;
+  width: 56px;
+}
 @media only screen and (max-width: 1200px) {
   .fixed-icon {
+    width: 40px;
+    height: 40px;
     bottom: 6rem;
-    right: 4rem;
+    right: 1.6rem;
+  }
+  .whats__svg{
+    height: 36px;
+    width: 36px;
   }
 }
 
