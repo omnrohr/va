@@ -206,8 +206,15 @@
 }
 
 .about-image-1 {
-  background-image: url("../img/backgrounds/vision_mission.webp");
+  background-image: url("../img/backgrounds/our-vision-s.webp");
 }
+
+@media only screen and ( min-width:1200px ) {
+  .about-image-1 {
+    background-image: url("../img/backgrounds/vision_mission.webp");
+  }
+}
+
 
 .marquee-image-single-1 {
   background-image: url("https://dummyimage.com/1000x1300/4d4d4d/636363");
@@ -6884,7 +6891,7 @@ form textarea:required:valid {
   margin-bottom: 3.2rem;
 }
 .contact-data__item:last-of-type {
-  margin-bottom: 0;
+  margin-bottom: 3.2rem;
 }
 @media only screen and (min-width: 768px) {
   .contact-data__item {

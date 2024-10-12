@@ -206,7 +206,13 @@
 }
 
 .about-image-1 {
-  background-image: url("../img/backgrounds/vision_mission.webp");
+  background-image: url("../img/backgrounds/our-vision-s.webp");
+}
+
+@media only screen and ( max-width:768 ) {
+  .about-image-1 {
+    background-image: url("../img/backgrounds/vision_mission.webp");
+  }
 }
 
 .marquee-image-single-1 {
@@ -6930,6 +6936,7 @@ form textarea:required:valid {
 
 .typing__head {
 color: #f05b2b;
+min-height: 50px;
 }
 .ordered__list {
   list-style-type:circle; 
